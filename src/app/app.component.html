@@ -1,13 +1,23 @@
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+
 <div class="sidenav">
+  <div class="logo"><img src="../assets/logo/logo_index.png" alt=""></div>
   <nav>
     <ul>
+      <li><a routerLink="/app-home" routerLinkActive="active">Home</a></li>
       <li><a routerLink="/app-about" routerLinkActive="active">About</a></li>
       <li><a routerLink="/app-podcast" routerLinkActive="active">Podcast</a></li>
       <li><a routerLink="/app-merch" routerLinkActive="active">Merch</a></li>
       <li><a routerLink="/app-label" routerLinkActive="active">Label</a></li>
       <li><a routerLink="/app-contact" routerLinkActive="active">Contact</a></li>
     </ul>
+
+
+      <div class="social">
+        <a href="https://soundcloud.com/x-wave9" target="new"><i class="white fa fa-soundcloud" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/x.wave/" target="new"><i class="white fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+
   </nav>
   <!-- <button (click)="changeLanguage()">change language</button> -->
 </div>
