@@ -7,9 +7,10 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #03ff03; /* Black */
+  background-color: white; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  border-right: 3px solid #000099;
 }
 
 .sidenav li {
@@ -28,13 +29,13 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: #000099;
   display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #818181;
+  color: grey;
 }
 
 /* Style page content */
@@ -59,4 +60,8 @@
   display: flex;
   justify-content: center;
   margin-top: 150px;
+}
+
+.container {
+  margin: 0 10%;
 }

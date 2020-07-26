@@ -1,0 +1,20 @@
+.podcast img {
+  width: 50px;
+}
+
+.podcast {
+display: flex;
+margin-top: 30px;
+}
+
+.podcast a {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#saison1 {
+  cursor: pointer;
+}

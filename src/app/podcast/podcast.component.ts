@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-podcast',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PodcastComponent implements OnInit {
 
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    $('#saison1').click(function(){
+      $('#podcasts1').toggle();
+    });
   }
 
 }
