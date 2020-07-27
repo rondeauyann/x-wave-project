@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-
+import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 
@@ -32,6 +32,7 @@ export function createTranslateLoader(http: HttpClient) {
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
