@@ -14,6 +14,7 @@ import { PodcastComponent } from './pages/podcast/podcast.component';
 import { MerchComponent } from './pages/merch/merch.component';
 import { LabelComponent } from './pages/label/label.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { PodcastDetailComponent } from './pages/podcast-detail/podcast-detail.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +28,8 @@ export function createTranslateLoader(http: HttpClient) {
     PodcastComponent,
     MerchComponent,
     LabelComponent,
-    ContactComponent
+    ContactComponent,
+    PodcastDetailComponent
   ],
   imports: [
     BrowserModule,
