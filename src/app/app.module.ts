@@ -8,12 +8,12 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { PodcastComponent } from './podcast/podcast.component';
-import { MerchComponent } from './merch/merch.component';
-import { LabelComponent } from './label/label.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { PodcastComponent } from './pages/podcast/podcast.component';
+import { MerchComponent } from './pages/merch/merch.component';
+import { LabelComponent } from './pages/label/label.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
