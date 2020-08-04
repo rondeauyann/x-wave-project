@@ -28,7 +28,7 @@ export class PodcastService {
       descriptionPodcast: 'Lasse Vind is a Copenhagen based DJ, member of the BunkerBauer crew. He\'s well known for his sharp selection of old trance and real dj skills. For this first chapter, he cooked one hour of psychedelic old goa trance, a show that goes perfectly for the X-Wave sounds.',
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https%3A//api.soundcloud.com/tracks/738841585&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/738841585&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     }
   ];
 
