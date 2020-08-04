@@ -24,7 +24,7 @@ export class PodcastService {
     {
       id: 1,
       nom: 'X-WAVE #1 - Lasse Vind - 28/12/2019',
-      imagePodcast: 'podcast1.PNG',
+      imagePodcast: '/assets/img/podcast1.PNG',
       descriptionPodcast: 'Lasse Vind is a Copenhagen based DJ, member of the BunkerBauer crew. He\'s well known for his sharp selection of old trance and real dj skills. For this first chapter, he cooked one hour of psychedelic old goa trance, a show that goes perfectly for the X-Wave sounds.',
       imageArtiste: '',
       descriptionArtiste: '',

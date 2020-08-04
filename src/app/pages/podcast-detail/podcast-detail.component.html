@@ -1,5 +1,10 @@
 <section class="container" *ngIf="podcastDetail.id">
   <h1>Detail</h1>
+  <h1>{{podcastDetail.imagePodcast}}</h1>
+
+<div [ngStyle]="{'background-image':' url(' + podcastDetail?.imagePodcast + ')'}">
+
+</div>
 
   <iframe width="100%"
   height="300"
