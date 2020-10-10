@@ -18,6 +18,9 @@ export class PodcastService {
     {id: 5, image: 'podcast5.PNG', nom: 'X-WAVE #5 - Lund&Rønde', date: ' 25/04/2020'},
     {id: 6, image: 'podcast6.PNG', nom: 'X-WAVE #6 - Opus Dream', date: '30/05/2020'},
     {id: 7, image: 'podcast7.PNG', nom: 'X-WAVE #7 - Jaïa', date: '27/06/2020'},
+    {id: 8, image: 'podcast8.PNG', nom: 'X-WAVE #7 - Ekkel', date: '25/07/2020'},
+    {id: 9, image: 'podcast9.PNG', nom: 'X-WAVE #7 - OT2', date: '29/08/2020'},
+    {id: 10, image: 'podcast10.PNG', nom: 'X-WAVE #7 - Pastwa', date: '26/09/2020'},
   ];
 
   public podcasts2: Podcast[] = [];
