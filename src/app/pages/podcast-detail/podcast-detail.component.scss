@@ -1,4 +1,45 @@
-.test {
-  width: 200px;
-  height: 200px;
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
 }
+.image {
+  flex: 0 0 50%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.description {
+  flex: 0 0 50%;
+}
+
+.background-inner {
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+background-inner2 {
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+ .background-wrapper {
+  border-radius: inherit;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+ }
+
+ .player {
+   float: right;
+   width: 57%;
+
+ }
