@@ -1,7 +1,11 @@
+body {
+  background-color: #faf5f0;
+}
+
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  padding-top: 60px;
 
   .contact-form {
     min-width: 600px;
@@ -23,8 +27,8 @@
   .field {
     border: 1px solid gray;
     margin: 8px 0;
-    padding: 12px 18px;
     border-radius: 8px;
+    background-color: black;
   }
 
   .field label {
