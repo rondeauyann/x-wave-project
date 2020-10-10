@@ -27,7 +27,7 @@ export class PodcastDetailComponent implements OnInit {
     console.log(this.podcastDetail);
   }
 
-  getSoundcloudUrl(url: string) {
+  getSoundcloudUrl() {
     return this.sanitizer.bypassSecurityTrustResourceUrl(this.podcastDetail.soundcloudUrl);
   }
 
