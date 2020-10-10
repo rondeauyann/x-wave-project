@@ -1,5 +1,17 @@
-h1 {
-  margin: 0 auto;
-  width: 50%;
-  margin-top: 25%;
+.container {
+  margin-top: 60px;
+
+  .label-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .label-image {
+    margin: 10px;
+  }
+
+  .label-contenu {
+    margin: 10px;
+  }
 }
+
