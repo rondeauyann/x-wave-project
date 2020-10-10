@@ -20,6 +20,10 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
+
+  .active {
+    font-weight: bold;
+  }
 }
 
 .sidenav ul {
