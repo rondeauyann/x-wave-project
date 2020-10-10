@@ -1,65 +1,21 @@
-<section class="container">
-  <div class="contact-form">
+<section id="contact" class="container">
+  <div class="contact-title">
+		<h1>Contact and Booking</h1>
+	</div>
 
-    <h1>Contact Us</h1>
+	<div class="contact-form">
 
-    <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+		<form id="contact-form" method="post" action="">
 
-      <!-- name -->
-      <div class="field">
-        <label class="label" for="">Name</label>
-        <input
-          type="text"
-          name="name"
-          class="input"
-          [(ngModel)]="name"
-          #nameInput="ngModel"
-          required>
+			<input type="text" name="name" class="form-control" placeholder="Your Name" value=""><br>
 
-          <div class="help is-error" *ngIf="nameInput.invalid">
-            Your name is required.
-          </div>
-      </div>
+			<input type="email" name="email" class="form-control" placeholder="Your Email" value=""><br>
 
+			<textarea name="message" class="form-control" placeholder="Message" rows="4" value=""></textarea><br>
 
-      <!-- email -->
-      <div class="field">
-        <label class="label" for="">Email</label>
-        <input
-          type="email"
-          name="email"
-          class="input"
-          [(ngModel)]="email"
-          #emailInput="ngModel"
-          required
-          email>
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
 
-          <div class="help is-error" *ngIf="emailInput.invalid">
-            Your email is required and needs to be an email.
-          </div>
-      </div>
-
-
-      <!-- message -->
-      <div class="field">
-        <label class="label" for="">Your Message</label>
-        <textarea
-          name="message"
-          class="textarea"
-          [(ngModel)]="message">
-        </textarea>
-      </div>
-
-
-      <!-- submit button -->
-      <button
-        type="submit"
-        class="btn"
-        [disabled]="contactForm.invalid">
-        Send
-      </button>
-
-    </form>
-  </div>
+	</div>
 </section>
 

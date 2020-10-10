@@ -6,62 +6,72 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 60px;
+}
 
-  .contact-form {
-    min-width: 600px;
-    background: #f1f1f1;
-    position: absolute;
-    padding: 30px 40px;
-    box-sizing: border-box;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 0 20px #000000b3;
-    font-family: "Roboto", sans-serif;
-  }
+#contact {
+  margin: 0;
+  padding: 0;
+  height: 1200px;
+  text-align: center;
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .contact-form h1 {
+.contact-title {
+  display: inline-block;
+  margin-top: 80px;
+  color: #fff;
+  animation: all 1s ease-in;
+}
+
+@keyframes all {
+  from {
     margin-top: 0;
-    font-weight: 200;
+    opacity: 0;
+    color: grey;
   }
-
-  .field {
-    border: 1px solid gray;
-    margin: 8px 0;
-    border-radius: 8px;
-    background-color: black;
-  }
-
-  .field label {
-    display: block;
-    text-align: left;
-    color: #333;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-
-  .field input,.field textarea {
-    width: 100%;
-    border: none;
-    background: none;
-    outline: none;
-    font-size: 18px;
-    margin-top: 6px;
-  }
-
-  .help {
-    color: red;
-    font-size: 12px;
-  }
-
-  .btn {
-    display: block;
-    background: #9b59b6;
-    padding: 14px 0;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 8px;
-    width: 100%;
+  to {
+    margin-top: 80px;
+    opacity: 1;
+    color: #fff;
   }
 }
 
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+  padding-top: 30px;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
