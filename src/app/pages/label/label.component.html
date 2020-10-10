@@ -2,22 +2,26 @@
   <h1>VA X-WAVE HITS</h1>
 
   <div class="label-container">
-
     <div class="label-image">
       <img src="../../assets/img/xwave-label-image.png" alt="">
     </div>
 
     <div class="label-contenu">
-
       <h2>TRACKLIST</h2>
-
-      <div *ngFor="let podcast of podcasts1">
-        <span>{{podcast.nom}}</span>
-
+      <div class="podcast-list">
+        <div *ngFor="let podcast of podcasts1" class='podcast-item'>
+          <span>{{podcast.nom}}</span>
+        </div>
       </div>
-
     </div>
+  </div>
 
+  <div class="bandcamp">
+    <iframe style="border: 0; width: 100%; height: 120px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=3576707519/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=4291318686/transparent=true/"
+      seamless>
+      <a href="https://trunkfunkrecords.bandcamp.com/album/20-years-of-trunkfunk-sampler-part-1">20 Years of Trunkfunk - Sampler - Part 1 by Gork</a>
+    </iframe>
   </div>
 
 
