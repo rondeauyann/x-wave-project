@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 import { Router, ActivatedRoute } from '@angular/router';
 import {DomSanitizer} from '@angular/platform-browser';
+import { Location } from '@angular/common';
 
 import { Podcast } from '../../models/podcast';
 import { PodcastService } from '../../services/podcast.service';
@@ -19,16 +20,20 @@ export class PodcastDetailComponent implements OnInit {
 
   constructor(public podcastService: PodcastService,
               public route: ActivatedRoute,
-              private sanitizer: DomSanitizer) { }
+              private sanitizer: DomSanitizer,
+              private location: Location) { }
 
   ngOnInit() {
     this.id = Number(this.route.snapshot.paramMap.get('id'));
     this.podcastDetail = this.podcastService.getPodcastDetail(this.id);
-    console.log(this.podcastDetail);
   }
 
   getSoundcloudUrl() {
     return this.sanitizer.bypassSecurityTrustResourceUrl(this.podcastDetail.soundcloudUrl);
   }
 
+
+  goBack() {
+    this.location.back();
+  }
 }
