@@ -19,4 +19,8 @@ export class AppComponent {
     console.log('changeLanguage()')
     this.translateService.use('en');
   }
+
+  onActivate(event: Event) {
+    window.scrollTo(0, 0);
+  }
 }
