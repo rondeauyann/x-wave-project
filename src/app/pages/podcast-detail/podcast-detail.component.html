@@ -1,24 +1,28 @@
-<section *ngIf="podcastDetail.id">
+<section class="container">
+  <h1>{{podcastDetail.nom}}</h1>
 
-  <div class="parent background-wrapper">
-    <div class="image background-inner" [ngStyle]="{'background-image':' url(' + podcastDetail?.imagePodcast + ')'}">
+  <div class="podcast-container">
+    <div class="podcast-image">
+      <img class="imgage" src="../..{{podcastDetail.imagePodcast}}" alt="">
     </div>
-    <div class="descirption">
-      toto
+
+    <div class="podcast-contenu">
+      <span>{{podcastDetail.descriptionPodcast}}</span>
     </div>
   </div>
 
-
-
-  <div class="image background-inner player">
-    <iframe width="100%"
-      height="300"
-      scrolling="no"
-      frameborder="no"
-      allow="autoplay"
-      [src]="getSoundcloudUrl(podcastDetail.soundcloudUrl)">
-    </iframe>
+  <div class="soundcloud">
+    <div class="soundcloud-frame">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        [src]="getSoundcloudUrl()">
+      </iframe>
+    </div>
   </div>
-
 
 </section>
+

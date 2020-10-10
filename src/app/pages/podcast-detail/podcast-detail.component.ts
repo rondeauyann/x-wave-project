@@ -18,7 +18,6 @@ export class PodcastDetailComponent implements OnInit {
   public podcastDetail: PodcastDetail;
 
   constructor(public podcastService: PodcastService,
-              private router: Router,
               public route: ActivatedRoute,
               private sanitizer: DomSanitizer) { }
 
@@ -29,7 +28,7 @@ export class PodcastDetailComponent implements OnInit {
   }
 
   getSoundcloudUrl(url: string) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.podcastDetail.soundcloudUrl);
   }
 
 }

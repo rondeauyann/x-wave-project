@@ -1,45 +1,43 @@
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-  height: 500px;
-}
-.image {
-  flex: 0 0 50%;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.description {
-  flex: 0 0 50%;
+.container {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  h1 {
+    margin-left: 10px;
+  }
+
+  .podcast-container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px 20px 0px;
+
+    .podcast-image {
+      width: 50%;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .imgage {
+        min-width: 0;
+        min-height: 0;
+      }
+    }
+
+    .podcast-contenu {
+      width: 50%;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+
+  .soundcloud {
+    margin: 40px 10px 0px 10px;
+
+    .soundcloud-frame {
+      margin-top: 10px;
+    }
+  }
 }
 
-.background-inner {
-  border-radius: inherit;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-background-inner2 {
-  border-radius: inherit;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
- .background-wrapper {
-  border-radius: inherit;
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  left: 0px;
-  right: 0px;
- }
-
- .player {
-   float: right;
-   width: 57%;
-
- }
