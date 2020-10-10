@@ -11,13 +11,13 @@ import { PodcastDetail } from './../models/podcast-detail';
 export class PodcastService {
 
   public podcasts1: Podcast[] = [
-    {id: 1, image: 'podcast1.PNG', nom: 'X-WAVE #1 - Lasse Vind - 28/12/2019'},
-    {id: 2, image: 'podcast2.PNG', nom: 'X-WAVE #2 - Matriark - 25/01/2020'},
-    {id: 3, image: 'podcast3.PNG', nom: 'X-WAVE #3 - Blue Master - 29/02/2020'},
-    {id: 4, image: 'podcast4.PNG', nom: 'X-WAVE #4 - Marius Bø - 28/03/2020'},
-    {id: 5, image: 'podcast5.PNG', nom: 'X-WAVE #5 - Lund&Rønde - 25/04/2020'},
-    {id: 6, image: 'podcast6.PNG', nom: 'X-WAVE #6 - Opus Dream - 30/05/2020'},
-    {id: 7, image: 'podcast7.PNG', nom: 'X-WAVE #7 - Jaïa - 27/06/2020'},
+    {id: 1, image: 'podcast1.PNG', nom: 'X-WAVE #1 - Lasse Vind', date: '28/12/2019'},
+    {id: 2, image: 'podcast2.PNG', nom: 'X-WAVE #2 - Matriark', date: '25/01/2020'},
+    {id: 3, image: 'podcast3.PNG', nom: 'X-WAVE #3 - Blue Master', date: '29/02/2020'},
+    {id: 4, image: 'podcast4.PNG', nom: 'X-WAVE #4 - Marius Bø ', date: '28/03/2020'},
+    {id: 5, image: 'podcast5.PNG', nom: 'X-WAVE #5 - Lund&Rønde', date: ' 25/04/2020'},
+    {id: 6, image: 'podcast6.PNG', nom: 'X-WAVE #6 - Opus Dream', date: '30/05/2020'},
+    {id: 7, image: 'podcast7.PNG', nom: 'X-WAVE #7 - Jaïa', date: '27/06/2020'},
   ];
 
   public podcastDetails1: PodcastDetail[] = [
