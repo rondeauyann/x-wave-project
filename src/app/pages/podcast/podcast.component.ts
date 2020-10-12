@@ -24,6 +24,7 @@ export class PodcastComponent implements OnInit {
 
     $('#saison1').click(function(){
       $('#podcasts1').toggle();
+      $("i", this).toggleClass("fa-arrow-right fa-arrow-down");
     });
   }
 
