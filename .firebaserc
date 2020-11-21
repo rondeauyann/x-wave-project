@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "x-wave-ef805"
+    "default": "x-wave-ef805",
+    "x-wave": "x-wave-ef805"
   }
 }
