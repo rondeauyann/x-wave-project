@@ -44,7 +44,7 @@ build-production:
     artifacts:
         paths:
             # Build folder
-            - dist/firebase-hosting-demo
+            - dist/x-wave
         expire_in: 1 hour
 
 deploy-production:
