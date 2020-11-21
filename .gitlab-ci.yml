@@ -21,7 +21,7 @@ build-production:
         paths:
             # Build folder
             - dist/x-wave
-        expire_in: 1 hour
+        expire_in: 2 week
 
 deploy-production:
     stage: deploy
