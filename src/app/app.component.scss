@@ -23,7 +23,8 @@
   justify-content: center;
 
   .active {
-    font-weight: bold;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
   }
 }
 
