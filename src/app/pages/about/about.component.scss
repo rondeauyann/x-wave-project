@@ -1,20 +1,22 @@
-body {
-  background-color: #faf5f0;
-}
-
 h1 {
-  padding: 60px 40px;
+  color: orange;
+  padding: 30px 30px;
+  text-transform: uppercase;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
 img {
-  float: left;
-  width: 40%;
+  display: block;
+  width: 38%;
   margin-right: 40px;
+  margin: 0 auto;
 }
 
 p {
-  font-size: 40px;
+  color: orange;
+  padding: 30px;
+  font-size: 24px;
   font-family: 'Roboto', sans-serif;
 }
 

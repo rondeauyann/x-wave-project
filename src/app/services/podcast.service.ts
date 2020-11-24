@@ -21,6 +21,7 @@ export class PodcastService {
     {id: 8, image: 'podcast8.PNG', nom: 'X-WAVE #8 - Ekkel', date: '25/07/2020'},
     {id: 9, image: 'podcast9.PNG', nom: 'X-WAVE #9 - OT2', date: '29/08/2020'},
     {id: 10, image: 'podcast10.PNG', nom: 'X-WAVE #10 - Pastwa', date: '26/09/2020'},
+    {id: 11, image: 'podcast11.jpg', nom: 'X-WAVE #11 - Philipp Drube', date: '24/10/2020'},
   ];
 
   public podcasts2: Podcast[] = [];
@@ -64,7 +65,7 @@ export class PodcastService {
       descriptionPodcast: 'Marius Bø is one of the heads running the collective @ute-rec, a label and party series taking place in Oslo. His first hour mix taking you on a psychedelic journey, consisting of mostly old goa trance records. GTI takes care of the second hour, followed by DJ Sueur to finish the psychedelic containment journey...',
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/738841585&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786924874&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 5,
@@ -125,6 +126,16 @@ export class PodcastService {
       imageArtiste: '',
       descriptionArtiste: '',
       soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/906204529&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+    },
+    {
+      id: 11,
+      nom: 'X-WAVE #11 - Philipp Drube',
+      date: '24/10/2020',
+      imagePodcast: '/assets/img/podcast11.jpg',
+      descriptionPodcast: `Philipp Drube is a Berlin based DJ and labelhead. His meticulous and hand-tailored sets focus on Hard Dance music: Trance, fast paced Techno and Hardcore. A blend which earns him appearances at Berlin’s most established venues such as Griessmühle, Säule/Berghain, About Blank, Tresor as well as ongoing international bookings. In 2019 he co-founded Space Trax, a label which further highlights his musical vision and includes releases from artists such as Héctor Oaks, Lund&Rønde or Dimensionhopper aka Schacke. He cooked something more psy and goa than usual for the 11th show of X-Wave series.`,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
     },
 
 

@@ -9,15 +9,16 @@ body {
 }
 
 #contact h1 {
+  font-size: 30px;
   text-align: center;
-  color: rgb(0, 0, 0);
-  padding-top: 100px;
+  color: orange;
+  padding-top: 10%;
 }
 
 .border {
   width: 100px;
   height: 10px;
-  background: #34495e;
+  background: orange;
   margin: 40px auto;
 }
 
@@ -37,6 +38,7 @@ body {
   padding: 30px 40px;
   outline: none;
   color: #ddd;
+  background-color: orange;
   transition: 0.5s;
 }
 
@@ -50,11 +52,13 @@ textarea.form-control {
 }
 
 .submit {
-  float: right;
+  width: 400px;
+  margin: 0 auto;
   border: 0;
-  background: #34495e;
+  background: black;
+  border: 1px solid orange;
   color: #fff;
-  padding: 8px 50px;
+  padding: 8px 50px 8px;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;

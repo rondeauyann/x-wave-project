@@ -7,10 +7,10 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #faf5f0; /* Black */
+  background-color: black; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-  box-shadow: 0 0 15px 0 rgba(31, 73, 125, 0.8);
+  /* box-shadow: 0 0 15px 0 rgba(31, 73, 125, 0.8); */
 
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #000099;
+  color: orange;
   display: block;
 }
 
@@ -50,7 +50,7 @@
 .main {
   margin-left: 240px; /* Same as the width of the sidebar */
   padding: 0px 10px;
-  background-color: #faf5f0;
+  background-color: #000000;
   min-height: 70rem;
 }
 
