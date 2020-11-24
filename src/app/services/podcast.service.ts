@@ -21,7 +21,7 @@ export class PodcastService {
     {id: 8, image: 'podcast8.PNG', nom: 'X-WAVE #8 - Ekkel', date: '25/07/2020'},
     {id: 9, image: 'podcast9.PNG', nom: 'X-WAVE #9 - OT2', date: '29/08/2020'},
     {id: 10, image: 'podcast10.PNG', nom: 'X-WAVE #10 - Pastwa', date: '26/09/2020'},
-    {id: 11, image: 'podcast11.jpg', nom: 'X-WAVE #11 - Philipp Drube', date: '24/10/2020'},
+    {id: 11, image: 'podcast11.png', nom: 'X-WAVE #11 - Philipp Drube', date: '24/10/2020'},
     {id: 12, image: 'podcast12.png', nom: 'X-WAVE #12 - Philipp Drube', date: '24/10/2020'},
   ];
 
@@ -132,7 +132,7 @@ export class PodcastService {
       id: 11,
       nom: 'X-WAVE #11 - Philipp Drube',
       date: '24/10/2020',
-      imagePodcast: '/assets/img/podcast11.jpg',
+      imagePodcast: '/assets/img/podcast11.png',
       descriptionPodcast: `Philipp Drube is a Berlin based DJ and labelhead. His meticulous and hand-tailored sets focus on Hard Dance music: Trance, fast paced Techno and Hardcore. A blend which earns him appearances at Berlin’s most established venues such as Griessmühle, Säule/Berghain, About Blank, Tresor as well as ongoing international bookings. In 2019 he co-founded Space Trax, a label which further highlights his musical vision and includes releases from artists such as Héctor Oaks, Lund&Rønde or Dimensionhopper aka Schacke. He cooked something more psy and goa than usual for the 11th show of X-Wave series.`,
       imageArtiste: '',
       descriptionArtiste: '',
