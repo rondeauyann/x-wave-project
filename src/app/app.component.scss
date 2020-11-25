@@ -1,39 +1,37 @@
 
- /* The sidebar menu */
- .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 240px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: black; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  /* box-shadow: 0 0 15px 0 rgba(31, 73, 125, 0.8); */
-
+ .navbar {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  border-bottom: 3px solid #f7a11e;
 }
 
-.sidenav li {
+.navbar nav {
+  width: 40%;
+  margin-top: 150px;
+}
+
+.navbar li {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
 
   .active {
-    border-top: 2px solid #f7a11e;
-    border-bottom: 2px solid #f7a11e;
+    background-color: #f7a11e;
+    color: black;
+    border-radius: 30% 30% 0 0;
   }
 }
 
-.sidenav ul {
+.navbar ul {
   padding-inline-start: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: -10px;
 }
 
 /* The navigation menu links */
-.sidenav a {
+.navbar a {
+  width: 110%;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -42,35 +40,26 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+.navbar a:hover {
   font-weight: bold;
 }
 
 /* Style page content */
 
-.main {
-  margin-left: 240px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-  background-color: #000000;
-  min-height: 70rem;
-}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+
 }
 
-.logo img {
-  max-width: 240px;
-}
 
 .social {
-  color: white;
   display: flex;
   justify-content: center;
+  margin-top: 130px;
 }
 
 .container {
   padding: 0 10%;
 }
+
