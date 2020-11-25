@@ -1,19 +1,16 @@
-body {
-  background-color: #faf5f0;
-}
-
 #contact {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
-#contact h1 {
-  font-size: 30px;
-  text-align: center;
+h1 {
   color: #f7a11e;
-  padding-top: 10%;
-  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 180px;
+  font-family: 'MyFont', sans-serif;
 }
 
 .contact-form {

@@ -46,7 +46,7 @@ export class PodcastService {
       descriptionPodcast: 'Born in Oslo, the Copenhagen based DJ Matriark, recently moved from floor to booth and plays regularly the great club Ved Siden Af. Matriark also helps run a collective called Agartha Productions that focuses on the visual aspect of the party as much as the sound. For the second X-Wave show of the decade, she delivers one hour of powerful psychedelic goa tunes...',
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750397672&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/750397672&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ export class PodcastService {
       descriptionPodcast: 'Norwegian duo from Oslo, Blue Master, is in the mix for the third X-Wave podcast.They deliver 1 hour of energetic psy-trance tunes from all decades. X-Wave takes care of the second part of the mix, with as usual old psy-trance and goa-trance mixed together.',
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/773773237&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/773773237&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 4,
@@ -66,7 +66,7 @@ export class PodcastService {
       descriptionPodcast: 'Marius Bø is one of the heads running the collective @ute-rec, a label and party series taking place in Oslo. His first hour mix taking you on a psychedelic journey, consisting of mostly old goa trance records. GTI takes care of the second hour, followed by DJ Sueur to finish the psychedelic containment journey...',
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786924874&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786924874&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true&visual=true'
     },
     {
       id: 5,
@@ -76,7 +76,7 @@ export class PodcastService {
       descriptionPodcast: `Osvald and Aske Lund Rønde are a genius duo dj and producer from Copenhagen. They are running the infamous labels BunkerBauer and V.A.L.I.S. records and are known for their finest record collection and musical knowledge in Trance music. Their unique sound takes you to another dimension, and they prepared for us a non melodic goa mix with weird stuff from the back of the record collection. The 2 following hours are under GTI's and Dj Sueur's control.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/808191931&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/808191931&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 6,
@@ -86,7 +86,7 @@ export class PodcastService {
       descriptionPodcast: `Opus Dream recently made his DJ debut in December of 2019. Hailing from Krakow, he has been a longtime member of the city's dance music scene before moving behind the decks. He has steadily carved a name for himself in the trance music community having made his debut alongside DJs like High Future and Tahl. He is also a resident of the young Krakow-based collective Nasenbluten.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/833860762&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/833860762&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 7,
@@ -96,7 +96,7 @@ export class PodcastService {
       descriptionPodcast: `Jaia project was first formed in 1995 by Yannis and Jean-Michel Blanchet. They released their first tracks on Fairway Records, and Jaia became quickly one of the main goa trance band in the 90ies. Since 1997 Jaia has been performing live in festivals, clubs, and art galleries in all Europe, Japan, Israel, Russia, India, Brazil, Mexico, Canada and in the USA. Since 2000 Yannis is working alone under Jaia name, and his music goes now from atmospheric cinematic ambient to uplifting trance, crossing house and techno grooves.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/850260604&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/850260604&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 8,
@@ -106,7 +106,7 @@ export class PodcastService {
       descriptionPodcast: `Ekkel is one of the guys behind the norwegian crew, Ute, based in Oslo, and runs labels (Sinensis, Translusid, Ute), parties, and podcast series. He's also the head behind Accelerationism (genius dj-duo with Marius Bø). His special taste for very sexy old school trance records will certainly charm you. Enjoy the trip.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/876281146&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/876281146&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 9,
@@ -116,7 +116,7 @@ export class PodcastService {
       descriptionPodcast: `OT2 is a Norwegian-born, Berlin residing producer who’s music can be found on various labels (Sunlab, Valis (upcoming), Ute and Translusid). His DJ-sets spans a diverse range of genres and BPMs with a focus on trancier grooves and melodies.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/889216498&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/889216498&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 10,
@@ -126,7 +126,7 @@ export class PodcastService {
       descriptionPodcast: `Pastwa is 1/3 of the Kraków based NIC collective, which is known for pushing the darker, industrial sonic range of techno. Pastwa is also co-founder of the party series Nasenbluten which has already drawn attention from cities such as Copenhagen and Berlin. Nasenbluten focuses on hard trance and fast techno, and is pushing boundaries within the Polish underground. Pastwa is well-known in Kraków but she already had a chance to play internationally - in Ved Siden Af in Copenhagen and Das Werk in Vienna.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/906204529&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/906204529&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 11,
@@ -136,7 +136,7 @@ export class PodcastService {
       descriptionPodcast: `Philipp Drube is a Berlin based DJ and labelhead. His meticulous and hand-tailored sets focus on Hard Dance music: Trance, fast paced Techno and Hardcore. A blend which earns him appearances at Berlin’s most established venues such as Griessmühle, Säule/Berghain, About Blank, Tresor as well as ongoing international bookings. In 2019 he co-founded Space Trax, a label which further highlights his musical vision and includes releases from artists such as Héctor Oaks, Lund&Rønde or Dimensionhopper aka Schacke. He cooked something more psy and goa than usual for the 11th show of X-Wave series.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
     {
       id: 12,
@@ -146,7 +146,7 @@ export class PodcastService {
       descriptionPodcast: `Philipp Drube is a Berlin based DJ and labelhead. His meticulous and hand-tailored sets focus on Hard Dance music: Trance, fast paced Techno and Hardcore. A blend which earns him appearances at Berlin’s most established venues such as Griessmühle, Säule/Berghain, About Blank, Tresor as well as ongoing international bookings. In 2019 he co-founded Space Trax, a label which further highlights his musical vision and includes releases from artists such as Héctor Oaks, Lund&Rønde or Dimensionhopper aka Schacke. He cooked something more psy and goa than usual for the 11th show of X-Wave series.`,
       imageArtiste: '',
       descriptionArtiste: '',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
 
 
