@@ -1,3 +1,4 @@
+import { OnInit } from '@angular/core';
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -6,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'x-wave';
   translateService: TranslateService;
 
@@ -22,5 +23,20 @@ export class AppComponent {
 
   onActivate(event: Event) {
     window.scrollTo(0, 0);
+  }
+
+  ngOnInit() {
+    const navSlide = () => {
+      const burger = document.querySelector('.burger');
+      const nav = document.querySelector('.burger-nav');
+
+      burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+      });
+
+
+    }
+
+    navSlide();
   }
 }

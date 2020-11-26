@@ -71,3 +71,23 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+  .label-container {
+    display: block!important;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .label-image {
+    display: block!important;
+    width: 100%!important;
+    margin: 0 auto!important;
+  }
+
+  .label-contenu {
+    width: 100%!important;
+    margin: 0 auto;
+  }
+}

@@ -1,4 +1,9 @@
 
+.container {
+  padding: 0 10%;
+}
+
+
  .navbar {
   width: 100%;
   display: flex;
@@ -9,7 +14,7 @@
 
 .navbar nav {
   width: 40%;
-  margin-top: 150px;
+  margin: 150px auto 0;
 }
 
 .navbar li {
@@ -41,27 +46,78 @@
   font-family: 'MyFont', sans-serif;
 }
 
-/* When you mouse over the navigation links, change their color */
-.navbar a:hover {
-
-}
-
-/* Style page content */
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-
-}
-
-
 .social {
   display: flex;
   justify-content: center;
   margin-top: 130px;
 }
 
-.container {
-  padding: 0 10%;
+
+.burger svg {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  display: none;
+  cursor: pointer;
 }
 
+.burger-nav {
+  display: none;
+}
+
+.burger-nav a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar nav {
+    display: none;
+  }
+
+  .burger svg {
+    display: block;
+  }
+
+  .burger-nav {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 192px;
+    width: 0;
+    left: 0px;
+    overflow-x: hidden;
+    height: 500px;
+    background-color: #111;
+    opacity: 0.9;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+
+  .nav-active {
+    width: 240px;
+  }
+
+  .burger-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .burger-nav ul li {
+    padding: 10px 5px 10px 10px;
+    text-decoration: none;
+    font-size: 32px;
+    text-align: center;
+    color: #f7a11e;
+    transition: 0.4s;
+  }
+
+  .navbar a {
+    width: 100%;
+  }
+
+  .active {
+    border-radius: 0!important;
+  }
+
+
+}
