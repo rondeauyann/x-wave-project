@@ -28,13 +28,6 @@ i {
 }
 
 iframe {
-  width: 90%;
-  margin-left: 40px;
+  width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  iframe {
-    width: 100%;
-    margin-left: 0;
-  }
-}
