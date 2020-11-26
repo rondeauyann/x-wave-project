@@ -4,6 +4,8 @@
   h1 {
     margin-left: 10px;
     color: #f7a11e;
+    font-size: 24px;
+    font-family: "MyFont", sans-serif;
 
     .icon {
       margin-right: 20px;
@@ -31,13 +33,15 @@
     }
 
     .podcast-contenu {
-      color: orange;
+      color: #f7a11e;
       width: 50%;
       margin: 10px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      border: 3px solid #f7a11e;
+      padding: 20px;
 
       .podcast-description {
         align-self: center;
