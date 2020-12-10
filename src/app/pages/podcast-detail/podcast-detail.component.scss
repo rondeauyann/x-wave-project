@@ -34,13 +34,13 @@
 
     .podcast-contenu {
       color: #f7a11e;
-      width: 50%;
+      width: 60%;
       margin: 10px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border: 3px solid #f7a11e;
+      box-shadow: 0px 0px 20px 10px #f7a11e;
       padding: 20px;
 
       .podcast-description {
@@ -58,6 +58,40 @@
       margin-top: 10px;
     }
   }
+}
+
+.artiste-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 300px 0px 20px 0px;
+
+  .artiste-image {
+    width: 50%;
+    margin: 10px;
+    .imgage {
+      min-width: 0;
+      min-height: 0;
+      max-height: 25rem;
+    }
+  }
+
+  .artiste-contenu {
+    color: #f7a11e;
+    width: 40%;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 10px #f7a11e;
+    padding: 20px;
+
+    .artiste-description {
+      align-self: center;
+      font-size: 1.25rem;
+    }
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
