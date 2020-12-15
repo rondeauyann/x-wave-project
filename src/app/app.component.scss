@@ -69,6 +69,24 @@
   color: #fff;
 }
 
+.logo {
+  position: absolute;
+  left: 10%;
+  width: 9%;
+}
+.logo img {
+  width: 100%;
+}
+
+.logo2 {
+  position: absolute;
+  right: 10%;
+  width: 9%;
+}
+.logo2 img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1024px) {
   .navbar nav {
     display: none;
@@ -125,6 +143,10 @@
 
   .social a {
     font-size: 60px;
+  }
+
+  .logo, .logo2 {
+    display: none;
   }
 
 
