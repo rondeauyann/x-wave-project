@@ -4,6 +4,64 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 100px;
+  padding-top: 50px;
   font-family: 'MyFont', sans-serif;
+}
+
+.merch-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 50px auto;
+}
+
+.merch-images {
+  width: 60%;
+}
+
+#featured {
+  width: 70%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid orange;
+}
+
+.thumbnail {
+  object-fit: cover;
+  width: 18%;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px;
+  border: 2px solid orange;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+.merch-description {
+  color: #f7a11e;
+  width: 30%;
+}
+
+.bandcamp {
+  border: 2px solid orange;
+  height: 100px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .merch-container{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .merch-images {
+    margin-left: 20%;
+  }
 }
