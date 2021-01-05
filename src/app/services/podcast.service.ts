@@ -22,7 +22,7 @@ export class PodcastService {
     {id: 9, image: 'podcast9.PNG', nom: 'X-WAVE #9 - OT2', date: '29/08/2020'},
     {id: 10, image: 'podcast10.PNG', nom: 'X-WAVE #10 - Pastwa', date: '26/09/2020'},
     {id: 11, image: 'podcast11.png', nom: 'X-WAVE #11 - Philipp Drube', date: '24/10/2020'},
-    {id: 12, image: 'podcast12.png', nom: 'X-WAVE #12 - Philipp Drube', date: '24/10/2020'},
+    {id: 12, image: 'podcast12.png', nom: 'X-WAVE #12 - Goasis', date: '27/11/2020'},
   ];
 
   public podcasts2: Podcast[] = [];
@@ -143,10 +143,10 @@ export class PodcastService {
       nom: 'X-WAVE #12 - Goasis',
       date: '27/11/2020',
       imagePodcast: '/assets/img/podcast12.png',
-      descriptionPodcast: `Philipp Drube is a Berlin based DJ and labelhead. His meticulous and hand-tailored sets focus on Hard Dance music: Trance, fast paced Techno and Hardcore. A blend which earns him appearances at Berlin’s most established venues such as Griessmühle, Säule/Berghain, About Blank, Tresor as well as ongoing international bookings. In 2019 he co-founded Space Trax, a label which further highlights his musical vision and includes releases from artists such as Héctor Oaks, Lund&Rønde or Dimensionhopper aka Schacke. He cooked something more psy and goa than usual for the 11th show of X-Wave series.`,
+      descriptionPodcast: `Previously based in Melbourne, Grant Camov has been an important part of the Australian scene for the last decade, playing almost every event there is to play under different aliases. As Goasis he was a key figure in the Australian underground scene and after deeply exploring the sonic boundaries of electronic music the psychedelic sound caught his attention for real. Enjoy this most recent Goa mix, cooked up with pleasure for X-Wave`,
       imageArtiste: '',
       descriptionArtiste: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam excepturi voluptas iure optio, delectus soluta? Ut, tempore laboriosam odit eos animi hic perferendis esse fugit, nihil ipsa ex ducimus?',
-      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/918257828&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/947342959&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
 
 
