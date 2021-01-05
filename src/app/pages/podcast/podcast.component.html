@@ -2,7 +2,7 @@
   <h1 id="saison1"><i class="fa fa-arrow-down"></i> Season 1</h1>
 
   <div id="podcasts1">
-    <div *ngFor="let podcast of podcasts1" class="podcast">
+    <div *ngFor="let podcast of podcasts1" class="podcast grow">
         <img class="podcast_img" src="../../assets/img/{{podcast.image}}" alt="">
         <a class="podcast_detail" [routerLink]="['/app-podcast-detail/', podcast.id]" href="">{{podcast.nom}} <br> {{podcast.date}}</a>
     </div>
