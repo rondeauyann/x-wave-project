@@ -26,17 +26,17 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    const navSlide = () => {
-      const burger = document.querySelector('.burger');
-      const nav = document.querySelector('.burger-nav');
+    $('.burger').click(function(e){
+      e.stopPropagation();
+      $('.burger-nav').toggleClass('nav-active');
+    });
 
-      burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
-      });
+    $('.burger-nav').click(function(e){
+        e.stopPropagation();
+    });
 
-
-    }
-
-    navSlide();
+    $('body,html').click(function(e){
+      $('.burger-nav').removeClass('nav-active');
+    });
   }
 }

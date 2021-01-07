@@ -22,9 +22,10 @@ export class PodcastComponent implements OnInit {
     this.podcasts1 = this.podcastService.getPodcastSaison1();
     this.podcasts2 = this.podcastService.getPodcastSaison2();
 
-    $('#saison1').click(function(){
-      $('#podcasts1').toggle();
-      $("i", this).toggleClass("fa-arrow-right fa-arrow-down");
+
+    $('.saison').click(function(){
+      $('.target').hide();
+      $('#podcasts'+$(this).attr('target')).toggle();
     });
   }
 

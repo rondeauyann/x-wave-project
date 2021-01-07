@@ -1,4 +1,7 @@
-
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
 
 h1 {
   color: #f7a11e;
@@ -6,12 +9,13 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 40px;
   font-family: 'MyFont', sans-serif;
   cursor: pointer;
+  display: inline;
+  margin: 0 10px;
 }
 
-#podcasts1 {
+#podcasts1, #podcasts2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
