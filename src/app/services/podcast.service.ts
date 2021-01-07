@@ -149,10 +149,7 @@ export class PodcastService {
       imageArtiste: '',
       descriptionArtiste: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam excepturi voluptas iure optio, delectus soluta? Ut, tempore laboriosam odit eos animi hic perferendis esse fugit, nihil ipsa ex ducimus?',
       soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/947342959&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
-    }
-  ];
-
-  public podcastDetails2: PodcastDetail[] = [
+    },
     {
       id: 13,
       nom: 'X-WAVE #13 - I.E',
@@ -163,6 +160,10 @@ export class PodcastService {
       descriptionArtiste: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam excepturi voluptas iure optio, delectus soluta? Ut, tempore laboriosam odit eos animi hic perferendis esse fugit, nihil ipsa ex ducimus?',
       soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/958170400&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
+  ];
+
+  public podcastDetails2: PodcastDetail[] = [
+
   ];
 
 
@@ -179,5 +180,7 @@ export class PodcastService {
   getPodcastDetail(id: number): PodcastDetail {
     return this.podcastDetails1.find(podcast => podcast.id === id);
   }
+
+
 
 }
