@@ -12,13 +12,47 @@ h1 {
   padding-top: 70px;
   font-family: 'MyFont', sans-serif;
 }
+
+h3 {
+  color: #f7a11e;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'MyFont', sans-serif;
+}
+
+h4 {
+  color: #f7a11e;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'MyFont', sans-serif;
+}
+
  p {
   color: #f7a11e;
   font-size: 18px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 20px;
  }
 
+ .flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+
+ .IG, .SC {
+   width: 35%;
+ }
+
+ .flex a img {
+   width: 100%;
+ }
 
 @media screen and (max-width: 1024px) {
   h1 {
