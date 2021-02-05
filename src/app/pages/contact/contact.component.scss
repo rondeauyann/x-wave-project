@@ -9,65 +9,19 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 180px;
+  padding-top: 70px;
   font-family: 'MyFont', sans-serif;
 }
-
-.contact-form {
-  max-width: 600px;
-  margin: auto;
-  padding: 0 10px;
-  overflow: hidden;
-}
-
-.form-control {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  border: 0;
-  background: #111;
-  padding: 30px 40px;
-  outline: none;
-  color: black;
-  background-color: #f7a11e;
-  transition: 0.5s;
-}
-
-.form-control:focus {
-  box-shadow: 0 0 10px 4px #34495e;
-}
-
-textarea.form-control {
-  resize: none;
-  height: 120px;
-}
-
-.submit {
-  font-family: "MyFont", sans-serif;
-  width: 400px;
-  margin: 0 auto;
-  border: 0;
-  background: black;
-  border: 1px solid #f7a11e;
-  color: #fff;
-  padding: 8px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.submit:hover {
-  background: #f7a11e;
-  color: black;
-}
+ p {
+  color: #f7a11e;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 70px;
+ }
 
 
 @media screen and (max-width: 1024px) {
   h1 {
     padding-top: 80px;
-  }
-
-  .submit {
-    width: 60%;
   }
 }
