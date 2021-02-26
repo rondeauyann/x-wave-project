@@ -9,7 +9,18 @@ export class MainComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    window.addEventListener('load', function(){
+      let newVideo = <HTMLVideoElement> document.getElementById("video");
+      newVideo.addEventListener('ended', function() {
+          this.currentTime = 0;
+          this.play();
+      }, false);
+
+      newVideo.muted = true;
+      newVideo.play();
+
+  });
   }
 
 }

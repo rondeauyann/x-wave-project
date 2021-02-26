@@ -26,6 +26,31 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+
+    window.addEventListener('load', function(){
+      let newVideo = <HTMLVideoElement> document.getElementById("video1");
+      newVideo.addEventListener('ended', function() {
+          this.currentTime = 0;
+          this.play();
+      }, false);
+
+      newVideo.muted = true;
+      newVideo.play();
+
+    });
+
+    window.addEventListener('load', function(){
+      let newVideo = <HTMLVideoElement> document.getElementById("video2");
+      newVideo.addEventListener('ended', function() {
+          this.currentTime = 0;
+          this.play();
+      }, false);
+
+      newVideo.muted = true;
+      newVideo.play();
+
+  });
+
     $('.burger').click(function(e){
       e.stopPropagation();
       $('.burger-nav').toggleClass('nav-active');
