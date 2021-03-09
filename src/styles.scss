@@ -8,7 +8,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: black!important;
+  cursor: url('assets/cursor/Phlame_Arrow_Normal.cur'), pointer;
  }
+
+
 
  @media screen and (max-width: 1024px) {
   body{

@@ -46,11 +46,13 @@ iframe {
 
 .left-section {
   width: 45%;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
 }
 
 .right-section {
   width: 45%;
   text-decoration: none;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
 }
 
 .grow { transition: all .2s ease-in-out; }

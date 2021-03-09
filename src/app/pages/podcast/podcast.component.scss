@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: 'MyFont', sans-serif;
-  cursor: pointer;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
   display: inline;
   margin: 0 50px;
 }
@@ -47,6 +47,7 @@ h1 {
   padding-top: 20%;
   font-size: 17px;
   font-weight: bold;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
 }
 
 .podcast:hover .podcast_detail {
@@ -72,3 +73,5 @@ h1 {
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+.big { transform: scale(1.5);}
