@@ -23,6 +23,7 @@ h1 {
   object-fit: cover;
   cursor: pointer;
   border: 2px solid orange;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
 }
 
 .thumbnail {
@@ -32,6 +33,7 @@ h1 {
   opacity: 0.5;
   margin: 5px;
   border: 2px solid orange;
+  cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
 }
 
 .thumbnail:hover {
