@@ -24,9 +24,11 @@ export class PodcastComponent implements OnInit {
 
     $('#podcasts2').hide();
 
-    $('.saison').click(function(){
+    $('.saison').hover(function(){
+      $('.saison.active').removeClass('active');
       $('.target').hide();
       $('#podcasts'+$(this).attr('target')).show();
+      $(this).toggleClass('active');
     });
   }
 
