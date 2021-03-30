@@ -3,35 +3,6 @@
   padding: 0;
 }
 
-h1 {
-  color: #f7a11e;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 70px;
-  font-family: 'MyFont', sans-serif;
-}
-
-h3 {
-  color: #f7a11e;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 80px;
-  font-family: 'MyFont', sans-serif;
-}
-
-h4 {
-  color: #f7a11e;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 20px;
-  font-family: 'MyFont', sans-serif;
-}
 
  a {
   color: #f7a11e;
@@ -41,17 +12,13 @@ h4 {
   width: 555px;
   font-family: 'MyFont2', sans-serif;
   cursor: url('../../../assets/cursor/Phlame_Arrow_Precision_Select.cur'), pointer;
-  padding-top: 120px;
+  margin-top: 320px;
  }
 
  .flex {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
- }
-
- .IG, .SC {
-   width: 35%;
  }
 
  .flex a img {
