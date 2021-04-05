@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 import { Router, ActivatedRoute } from '@angular/router';
 import {DomSanitizer} from '@angular/platform-browser';
@@ -13,7 +13,7 @@ import { PodcastDetail } from './../../models/podcast-detail';
   templateUrl: './podcast-detail.component.html',
   styleUrls: ['./podcast-detail.component.scss']
 })
-export class PodcastDetailComponent implements OnInit {
+export class PodcastDetailComponent implements OnInit, OnDestroy {
 
   public id: number;
   public podcastDetail: PodcastDetail;
@@ -26,6 +26,7 @@ export class PodcastDetailComponent implements OnInit {
   ngOnInit() {
     this.id = Number(this.route.snapshot.paramMap.get('id'));
     this.podcastDetail = this.podcastService.getPodcastDetail(this.id);
+    document.getElementById('tab-podcast').classList.add('active');
 
     $('img[data-enlargeable]').addClass('img-enlargeable').click(function(){
       var src = $(this).attr('src');
@@ -56,5 +57,9 @@ export class PodcastDetailComponent implements OnInit {
 
   goBack() {
     this.location.back();
+  }
+
+  ngOnDestroy() {
+    document.getElementById('tab-podcast').classList.remove('active');
   }
 }
