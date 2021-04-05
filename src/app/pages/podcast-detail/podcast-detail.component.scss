@@ -97,12 +97,23 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 8px;
+  }
   .podcast-container {
     flex-direction: column!important;
+    justify-content: center;
+
+    .podcast-image {
+      justify-content: center;
+      margin-left: 0px !important;
+      margin-bottom: 30px !important;
+    }
   }
 
   .podcast-contenu {
     width: 100%!important;
+    margin: 0px !important;
   }
 }
 
