@@ -8,13 +8,12 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: 3px solid #f7a11e;
 }
 
 .navbar nav {
-  width: 40%;
-  margin: 150px auto 0;
+  margin-top: 150px;
 }
 
 .navbar li {
@@ -50,7 +49,8 @@
 .social {
   display: flex;
   justify-content: center;
-  margin-top: 130px;
+  margin-top: 64px;
+  z-index: 9999;
 }
 
 .social i {
@@ -78,6 +78,7 @@
   position: absolute;
   left: 10%;
   width: 9%;
+  top: 0;
 }
 .logo video {
   width: 100%;
@@ -87,6 +88,7 @@
   position: absolute;
   right: 10%;
   width: 9%;
+  top: 0;
 }
 .logo2 video {
   width: 100%;
