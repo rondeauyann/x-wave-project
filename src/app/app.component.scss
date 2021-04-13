@@ -18,6 +18,7 @@
 
 .navbar li {
   list-style-type: none;
+  font-size: 14px;
 
   .active {
     background-color: #f7a11e;
@@ -35,7 +36,7 @@
 
 /* The navigation menu links */
 .navbar a {
-  width: 90%;
+  width: 110%;
   padding: 6px 26px 6px 50px;
   text-decoration: none;
   text-transform: uppercase;
