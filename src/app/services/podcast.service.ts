@@ -29,7 +29,8 @@ export class PodcastService {
     {id: 13, image: 'podcast13.jpg', nom: 'X-WAVE #13 - I.E', date: '26/12/2020'},
     {id: 14, image: 'podcast14.jpg', nom: 'X-WAVE #14 - Xonic', date: '30/01/2021'},
     {id: 15, image: 'podcast15.jpg', nom: 'X-WAVE #15 - DWYSEDD', date: '27/02/2021'},
-    {id: 16, image: 'podcast16.jpg', nom: 'X-WAVE #16 - MIRAN N', date: '27/03/2021'}
+    {id: 16, image: 'podcast16.jpg', nom: 'X-WAVE #16 - MIRAN N', date: '27/03/2021'},
+    {id: 17, image: 'podcast17.jpg', nom: 'X-WAVE #17 - DJ DOGWALKER', date: '24/04/2021'}
   ];
 
   public podcastDetails1: PodcastDetail[] = [
@@ -192,6 +193,16 @@ export class PodcastService {
       imageArtiste: '',
       descriptionArtiste: 'Xonic is a DJ duo project consisting of Nona and seshan. They got to know each other on Berlin’s dancefloors and became close friends very quickly after discovering their similar passion for fast and pounding techno beats combined with hypnotic and dark as well as clear sounds. seshan joined Nona, who was already casually DJing for a bit before the first lockdown in the beginning of 2020. After a couple of home sessions during the lockdown we impulsively decided to record a spontaneous Mix in the middle of a night and upload it not just as an B2B but as a new project just for fun. Somehow the result was pretty different to the ones of our solo projects, but with strong influences from our very subjective as well as our overlapping tastes for music and styles of mixing. We found this phenomenon very interesting and kept on mixing together as Xonic. The Mix for X-Wave is a special one since it’s our first 1h mix. So it’s loaded with pounding and driving techno and trance and quick transitions. We try to tell some sort of sound stories with our mixes. On the X-Wave series we tried to stick to that principle, with a shorter but therefore faster and more intense one.',
       soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1027169236&color=%23111718&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+    },
+    {
+      id: 17,
+      nom: 'X-WAVE #17 - DJ DOGWALKER',
+      date: '24/04/2021',
+      imagePodcast: '/assets/img/podcast17.jpg',
+      descriptionPodcast: ``,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1027169236&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
   ];
 
