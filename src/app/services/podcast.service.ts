@@ -30,7 +30,11 @@ export class PodcastService {
     {id: 14, image: 'podcast14.jpg', nom: 'X-WAVE #14 - Xonic', date: '30/01/2021'},
     {id: 15, image: 'podcast15.jpg', nom: 'X-WAVE #15 - DWYSEDD', date: '27/02/2021'},
     {id: 16, image: 'podcast16.jpg', nom: 'X-WAVE #16 - MIRAN N', date: '27/03/2021'},
-    {id: 17, image: 'podcast17.jpg', nom: 'X-WAVE #17 - DJ DOGWALKER', date: '24/04/2021'}
+    {id: 17, image: 'podcast17.jpg', nom: 'X-WAVE #17 - DJ DOGWALKER', date: '24/04/2021'},
+    {id: 17, image: 'podcast18.jpg', nom: 'X-WAVE #18 - S>Range', date: '22/05/2021'},
+    {id: 17, image: 'podcast19.jpg', nom: 'X-WAVE #19 - Technoslave69', date: '26/06/2021'},
+    {id: 17, image: 'podcast20.jpg', nom: 'X-WAVE #20 - Dj Sea View', date: '25/09/2021'},
+    {id: 17, image: 'podcast21.jpg', nom: 'X-WAVE #21 - Matriark', date: '30/10/2021'}
   ];
 
   public podcastDetails1: PodcastDetail[] = [
@@ -203,6 +207,46 @@ export class PodcastService {
       imageArtiste: '',
       descriptionArtiste: '',
       soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1027169236&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+    },
+    {
+      id: 18,
+      nom: 'X-WAVE #18 - S>Range',
+      date: '22/05/2021',
+      imagePodcast: '/assets/img/podcast18.jpg',
+      descriptionPodcast: `Anthony Sillfors (S-Range) started producing trance music 1997 and sending his own sonic frequencies throughout the world with his hypnotic music that brings nice harmonies and a huge soundscape influenced by science fiction books and movies.`,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1066326364&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+    },
+    {
+      id: 19,
+      nom: 'X-WAVE #19 - Technoslave69',
+      date: '26/06/2021',
+      imagePodcast: '/assets/img/podcast19.jpg',
+      descriptionPodcast: `Technoslave_69 is a DJ from Cairo, Egypt who is based in Amsterdam. His style is groovy, up-tempo keeping a drive that bring’s you back straight to the dance-floor.- His sound consists of minimalistic details with driving baselines blending them with synths, percussions, and vocals creating a hybrid assuring to never losing the listeners attention.`,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1099208473&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+    },
+    {
+      id: 20,
+      nom: 'X-WAVE #20 - Dj Sea View',
+      date: '25/09/2021',
+      imagePodcast: '/assets/img/podcast20.jpg',
+      descriptionPodcast: ``,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1139908234&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+    },
+    {
+      id: 21,
+      nom: 'X-WAVE #17 - Matriark',
+      date: '30/10/2021',
+      imagePodcast: '/assets/img/podcast21.jpg',
+      descriptionPodcast: ``,
+      imageArtiste: '',
+      descriptionArtiste: '',
+      soundcloudUrl: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1148994856&color=%21047611938&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
     },
   ];
 
